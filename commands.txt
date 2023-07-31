@@ -1,0 +1,13 @@
+- Kubectl get pods -o wide
+- Kubectl create/apply -f filename
+- Kubectl get replicationcontroller
+- Kubectl replace -f filename.yaml
+- Kubectl scale —replicas=6 -f filename.yaml
+- Kubectl delete replicaset name 
+- Kubectl edit replicaset name
+- Kubectl get deployments
+- Kubectl get all
+- kubectl apply -f deployment.yaml (to apply after changes to the yaml file)
+- kubectl rollout status deployment/name
+- Kubectl rollout history deployment/name
+- Kubectl rollout undo deployment/name
